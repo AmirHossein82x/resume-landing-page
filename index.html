@@ -1,34 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>personal website</title>
-    <link rel="stylesheet" href="styles/app.css">
-    <link rel="stylesheet" href="styles/responsive.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/app.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <h1 class="nav__logo">WA.</h1>
-                <ul class="menu">
-                    <li class="menu__item"><a href="#" class="menu__link menu__link--active">Home</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">About us</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Resume</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Services</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
-                </ul>
-                <div class="nav__toggle-icon">
-                    <div class="nav__toggle-line"></div>
-                </div>
-            </nav>
+      <div class="container">
+        <nav class="nav">
+          <h1 class="nav__logo">WA.</h1>
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link--active">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">About us</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Resume</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Services</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Portfolio</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Pricing</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Contact</a>
+            </li>
+          </ul>
+          <div class="nav__toggle-icon">
+            <div class="nav__toggle-line"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="row align-items-center justify-content-space-between col-reverse">
+          <div class="col-7 col-lg-5">
+            <div class="home__content">
+              <h3 class="home__name">Hello, IM <span>White Alexa</span></h3>
+              <h2 class="home__title">Creative Designer</h2>
+              <p class="home__caption">
+                Freelancer web/ Mobile UI/UX Designer with Motion Graphics
+              </p>
+              <div class="home__links--wrapper">
+                <a href="#" class="home__link app-btn">Hire Me</a>
+                <a href="#" class="home__link app-btn app-btn--orange">Get Resume</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 center">
+            <div class="home__picture"></div>
+          </div>
         </div>
-    </head>
+      </div>
+      <svg class="home__shape"
+        xmlns="http://www.w3.org/2000/svg"
+        width="2165.237"
+        height="361.824"
+        viewBox="0 0 2165.237 361.824"
+      >
+        <path
+          id="Shape"
+          d="M-27.061,842.561s136.212,230.682,399.849,188.94,252.483-137.226,544.85-30.757,358.107,28.729,547.046-37.349,358.107,118.637,576.45,8.788,0,232.2,0,232.2L36.82,1201.005Z"
+          transform="translate(27.061 -842.561)"
+          fill="#0cbfae"
+        />
+      </svg>
+    </main>
 
     <div class="cover"></div>
     <script src="scripts/app.js"></script>
-</body>
+  </body>
 </html>
