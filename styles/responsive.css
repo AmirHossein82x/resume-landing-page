@@ -20,6 +20,9 @@
         align-items: center;
         text-align: center;
     }
+    .about {
+        flex-direction: column;
+    }
 
     .home__links--wrapper {
         text-align: center;

@@ -241,3 +241,145 @@ body {
   padding-left: -3rem;
   margin-left: -10rem;
 }
+
+
+
+.aboutus{
+  margin-top: 7rem;
+
+}
+.section-head{
+  text-align: center;
+  margin-bottom: 4rem;
+  
+  
+
+}
+.section-head__title{
+  font-family: "Poppins Bold";
+  font-size: 4rem;
+  color: var(--primary-color);
+  margin: 0;
+  letter-spacing: 0.25;
+  
+  
+
+}
+
+.section-head__caption {
+  color: var(--text-color);
+  font-family: "Poppins";
+  margin: 1 0;
+
+}
+.section-head__line{
+  margin: 0 auto;
+  display: block;
+  width: 18rem;
+  height: 0.2rem;
+  background-color: var(--primary-color);
+  position: relative;
+
+}
+
+
+.section-head__line::after {
+  position: absolute;
+  content: " ";
+  width: 4rem;
+  height: 0.8rem;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 2rem;
+  background-color: var(--primary-color);
+
+}
+.about{
+  background-color: var(--section-bg-color);
+  box-shadow: 0 0 4rem rgba(96, 233, 255, 27%);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+.about__cover{
+  /* margin-bottom: 0;
+  padding: 0; */
+  flex-basis: 50%;
+}
+.about__cover__image{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  
+  
+
+}
+.about__content{
+  padding: 1rem 4rem;
+  flex-basis: 50%;
+
+}
+.about__content__title{
+  font-family: "Poppins Semibold";
+  font-size: 2.4rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+
+
+}
+.about__content__description{
+  margin-top: 0;
+  margin-bottom: 6rem;
+
+}
+.about__list-title{
+  font-family: "Poppins Semibold";
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+}
+.about-list{
+  margin-left: 1rem;
+
+}
+.about-list__item{
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.about-list__item:last-child {
+  margin-bottom: 0;
+}
+
+
+.about-list__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  background-color: #F57F17;
+  margin: auto;
+
+}
+
+
+
+.about-links__wrapper{
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.about-link{
+
+}
