@@ -117,6 +117,10 @@ html {
     .container {
         width: 960px;
     }
+    .col-lg-4 {
+        width: 33.333333%;
+        flex: 0 0 auto;
+    }
 
     .col-lg-5 {
         width: 41.666666%;
@@ -125,6 +129,11 @@ html {
 
     .col-lg-7 {
         width: 58.333333%;
+        flex: 0 0 auto;
+
+    }
+    .col-lg-8 {
+        width: 66.666666%;
         flex: 0 0 auto;
 
     }
