@@ -133,6 +133,15 @@
         height: 33rem;
     }
 
+
+    .pricing__items{
+        justify-content: center;
+
+    }
+    .pricing__item {
+        width: 100%;
+    }
+
     
     
 }

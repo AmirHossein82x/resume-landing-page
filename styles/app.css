@@ -740,3 +740,93 @@ body {
   overflow: visible;
   transition: all 0.2s ease-in;
 } 
+
+
+
+
+
+.pricing__items{
+  margin-top: 5rem;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+.pricing__item{
+  text-align: center;
+  box-shadow: 0 0 2rem rgba(11, 190, 173, 20%);
+  
+  padding-bottom: 4rem;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 40rem;
+  flex-grow: 1;
+
+}
+.item__head{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: "Poppins Semibold";
+
+}
+.item__head__title{
+  margin: 0;
+  padding:0;
+
+}
+
+.item__head__price{
+  margin: 0;
+}
+.item__head__caption{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 3rem;
+
+}
+.pricing-list{
+  margin-top: 4rem;
+
+}
+.pricing-list__item{
+  margin-bottom: 2rem;
+
+}
+
+.pricing-btn {
+  margin: 0 auto;
+  border: none;
+}
+
+.item__head--orange{
+  background-color: #ff6331;
+
+}
+
+.item__head--pink {
+  background-color: #f5276c;
+}
+
+.item__head--purple {
+  background-color: #803afb;
+}
+
+.tick-svg{
+  width: 2rem;
+  height: 2rem;
+  
+}
+
+.pricing-btn--pink {
+  background-color: #f5276c;
+}
+
+.pricing-btn--purple {
+  background-color: #803afb;
+}
+
+.pricing-btn--orange {
+  background-color: #ff6331;
+}
