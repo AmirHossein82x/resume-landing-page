@@ -22,6 +22,7 @@ ul {
 
 html {
   font-size: 10px;
+  
 }
 
 
@@ -63,6 +64,7 @@ body {
   line-height: 1.5;
   color: var(--text-color);
   background-color: var(--app-bg-color);
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -95,12 +97,18 @@ body {
   margin-left: 4rem;
 }
 
+.menu__item--active {
+  color: var(--primary-color);
+
+}
+
 .menu__item:first-child {
   margin-left: 0;
 }
 .menu__link {
   display: inline-block;
-  color: var(--text-color);
+  /* color: var(--text-color); */
+  color: inherit;
   font-family: "Poppins Medium";
   transition: color 200ms ease-in;
 }

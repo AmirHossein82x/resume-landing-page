@@ -17,25 +17,25 @@
         <nav class="nav">
           <h1 class="nav__logo">WA.</h1>
           <ul class="menu">
-            <li class="menu__item">
-              <a href="#" class="menu__link menu__link--active">Home</a>
+            <li class="menu__item menu__item--active" data-section="home">
+              <a href="#" class="menu__link">Home</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item" data-section="aboutus">
               <a href="#" class="menu__link">About us</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item" data-section="resume">
               <a href="#" class="menu__link">Resume</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item" data-section="services">
               <a href="#" class="menu__link">Services</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item" data-section="portfolio">
               <a href="#" class="menu__link">Portfolio</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item" data-section="pricing">
               <a href="#" class="menu__link">Pricing</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item" data-section="contact">
               <a href="#" class="menu__link">Contact</a>
             </li>
           </ul>
@@ -46,7 +46,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="home">
+      <section class="home" id="home">
         <div class="container">
           <div
             class="row align-items-center justify-content-space-between col-reverse"
@@ -88,7 +88,7 @@
         </div>
       </section>
 
-      <section class="aboutus">
+      <section class="aboutus" id="aboutus">
           <div class="container">
           <div class="section-head">
             <h3 class="section-head__title">About Us</h3>
@@ -133,7 +133,7 @@
           </div>
         </section>
 
-        <section class="services">
+        <section class="services" id="services">
           <div class="container">
           <div class="services__head">
             <h3 class="section-head__title">Services</h3>
@@ -271,7 +271,7 @@
         </div>
         </section>
 
-        <section class="resume">
+        <section class="resume" id="resume">
           <div class="container skew-reset">
             <div class="services__head">
             <h3 class="section-head__title">Resume</h3>
@@ -544,7 +544,7 @@
           </div>
           
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
           <div class="container">
 
           
@@ -693,7 +693,7 @@
         </div>
         </section>
 
-        <section class="pricing resume">
+        <section class="pricing resume" id="pricing">
           <div class="container skew-reset">
 
             <div class="services__head">
@@ -755,7 +755,7 @@
 
         </section>
 
-        <section class="contactus">
+        <section class="contactus" id="contact">
           <div class="services__head">
             <h3 class="section-head__title">Contact us</h3>
             <p class="section-head__caption">let's keep in touch</p>
@@ -791,6 +791,9 @@
         <div class="footer__wrapper">
           <p class="footer__copy-right">2019 createuiux. All rights reserved</p>
           <div class="footer__socials">
+            <div class="change-them">
+              
+            </div>
             <a href="" class="footer__social"><img src="images/icons/behance.svg" alt=""></a>
             <a href="" class="footer__social"><img src="images/icons/skype.svg" alt=""></a>
             <a href="" class="footer__social"><img src="images/icons/facebook.svg" alt=""></a>
