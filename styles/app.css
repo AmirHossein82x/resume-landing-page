@@ -906,3 +906,22 @@ body {
   height: 7rem;
   max-height: 15rem;
 }
+
+
+.footer{
+
+}
+.footer__wrapper{
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer__copy-right{
+
+}
+.footer__socials{
+
+}
+.footer__social{
+
+}
