@@ -90,6 +90,13 @@
     .portfolio-list__item {
         margin-bottom: 3rem;
     }
+
+    .contactus__map {
+        display: none;
+    }
+    .contact {
+        margin-right: auto;
+    }
     
 }
 

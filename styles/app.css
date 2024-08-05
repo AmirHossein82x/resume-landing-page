@@ -830,3 +830,79 @@ body {
 .pricing-btn--orange {
   background-color: #ff6331;
 }
+
+.contactus {
+  margin-top: 6rem;
+  
+}
+
+
+.contactus__wrapper{
+  background-image: url("../images/map.jpg");
+  height: 60rem;
+  margin-top: 4rem;
+  position: relative;
+  padding: 4rem 0;
+}
+.contactus__map{
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--app-bg-color);
+  border-radius: 100%;
+  box-shadow: 0 0 4rem rgba(19, 182, 255, 24%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+
+}
+.contact{
+  background-color: var(--app-bg-color);
+  box-shadow: 0 0 4rem rgba(19, 182, 255, 24%);
+  max-width: 50rem;
+  padding: 5rem 4rem;
+  height: 100%;
+  margin-left: auto;
+
+}
+.contact__title{
+  font-family: "Poppins Bold";
+  font-size: 3.2rem;
+  color: var(--primary-color);
+  margin: 0;
+
+}
+.contact__form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 2rem;
+
+
+}
+.contact__form__input{
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5rem rgba(96, 233, 255, 27%);
+  border-radius: 1.3rem;
+  padding: 1rem 2rem;
+
+}
+
+.contact__form__input::placeholder {
+  color: var(--text-color);
+}
+
+.contact-btn {
+  width: 100%;
+  border: none;
+}
+
+.contact__form__input--textarea{
+  resize: vertical;
+  min-height: 5rem;
+  height: 7rem;
+  max-height: 15rem;
+}
